@@ -49,3 +49,5 @@ GROUP BY students.id
 HAVING AVG(assignment_submissions.duration) < AVG(assignments.duration)
 AND students.end_date IS NULL
 ORDER BY "average assignment duration";
+
+
